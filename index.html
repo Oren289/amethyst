@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Our Relationship in 100 Memories</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/love-icon.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Memories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Love</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid section-1">
+      <div class="row">
+        <div class="col">
+          <h1 style="height: 100vh; color: #fa4eab" class="d-flex justify-content-center align-items-center text-center fw-bold">Our Relationship in 100 Memories</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid section-2">
+      <div class="row">
+        <div class="col">
+          <h1 id="days-text" style="height: 100vh; color: whitesmoke" class="d-flex justify-content-center align-items-center text-center fw-bold">It's been 100 days since we were dating</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid section-3">
+      <div class="row">
+        <div class="col">
+          <h1 id="days-text" style="height: 100vh; color: #fa4eab" class="d-flex justify-content-center align-items-center text-center fw-bold">
+            Time goes by, everything changes. But my love for you never will. I love you even more, every single day &hearts;
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid section-4">
+      <div class="row">
+        <div class="col">
+          <h1 id="days-text" style="height: 100vh; color: whitesmoke" class="d-flex justify-content-center align-items-center text-center fw-bold">I made this for you. My one and only, my beloved mbos kicik &hearts;</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container section-5">
+      <div class="row">
+        <div class="col d-flex flex-column justify-content-center align-items-center text-center" style="height: 100vh; color: #fa4eab">
+          <h1 id="randompic-text" class="fw-bold text-center">Here's 100 random pictures of our amazing relationship. It's randomized, so keep rolling to get all of them :D</h1>
+          <div class="card d-none" id="polaroid-display">
+            <div class="card-body">
+              <div class="polaroid-img-container" id="polaroid-img-container">
+                <img class="polaroid-img" src="./img/pictures/1.jpeg" alt="" />
+              </div>
+              <p id="polaroid-desc">Bby kirim foto ini pas lagi di Solok. Sampai sekarang foto ini masih jadi background chat aku &hearts;</p>
+            </div>
+          </div>
+          <button class="btn btn-success btn-lg fw-bold mt-3" id="roll-btn">Roll Memories &hearts;</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid section-6">
+      <div class="row">
+        <div class="col d-flex flex-column justify-content-center align-items-center text-center" style="height: 100vh; color: whitesmoke">
+          <h1 id="randompic-text" class="fw-bold text-center">I love you so so so so so much bby &hearts;</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid section-7">
+      <div class="row">
+        <div class="col d-flex flex-column justify-content-center align-items-center text-center" style="height: 100vh; color: #fa4eab">
+          <h1 id="randompic-text" class="fw-bold text-center">I want to apologize to you for everything i did. I didn't mean to hurt your feelings. I'm really sorry...</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid section-8">
+      <div class="row">
+        <div class="col d-flex flex-column justify-content-center align-items-center text-center" style="height: 100vh; color: whitesmoke">
+          <h1 id="randompic-text" class="fw-bold text-center">Maafin aku yo sayang...</h1>
+          <div>
+            <button type="button" id="maafin-btn" class="btn btn-success btn-lg" data-toggle="modal" data-target="#exampleModal">Maafin</button>
+            <button type="button" class="btn btn-danger btn-sm" id="gdlu-btn">G dlu</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid section-9">
+      <div class="row">
+        <div class="col d-flex flex-column justify-content-center align-items-center text-center" style="height: 100vh; color: #fa4eab">
+          <h1 id="randompic-text" class="fw-bold text-center">Atapu mbos kicik &hearts;</h1>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
